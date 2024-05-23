@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [IntegrationTesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SP96_CMP15326(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP96_CMP15326">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeDriver"/>
+          <include name="initialConfig"/>
+          <include name="TC04_navigating_Add_Edit_Planned_Events"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15326 -->
+    </classes>
+  </test> <!-- SP96_CMP15326(failed) -->
+  <test thread-count="5" name="SP96_CMP14721(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP96_CMP14721">
+        <methods>
+          <include name="TC01_navigate_To_Crew_Profile"/>
+          <include name="tearDown"/>
+          <include name="closeDriver"/>
+          <include name="initialConfig"/>
+          <include name="setUp"/>
+          <include name="TC02_navigate_To_Simplified_Payroll"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP14721 -->
+    </classes>
+  </test> <!-- SP96_CMP14721(failed) -->
+  <test thread-count="5" name="SP96_CMP15463(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP96_CMP15463">
+        <methods>
+          <include name="initialConfig"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC02_navigate_To_UK_Tax"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15463 -->
+    </classes>
+  </test> <!-- SP96_CMP15463(failed) -->
+  <test thread-count="5" name="SP97_CMP15019(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP97_CMP15019">
+        <methods>
+          <include name="initialConfig"/>
+          <include name="SuiteTeardown"/>
+          <include name="MethodTeardown"/>
+          <include name="Tc01_VictuallingProductsDeletion" invocation-numbers="0"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP97_CMP15019 -->
+    </classes>
+  </test> <!-- SP97_CMP15019(failed) -->
+  <test thread-count="5" name="SP97_CMP15219(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP97_CMP15219">
+        <methods>
+          <include name="Tc02_AverageForVictualling" invocation-numbers="0"/>
+          <include name="MethodTeardown"/>
+          <include name="Tc01_AverageForVictualling" invocation-numbers="0"/>
+          <include name="SuiteTeardown"/>
+          <include name="Setup"/>
+          <include name="initialConfig"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP97_CMP15219 -->
+    </classes>
+  </test> <!-- SP97_CMP15219(failed) -->
+  <test thread-count="5" name="SP97_CMP16261(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP97_CMP16261">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="closeDriver"/>
+          <include name="TC09_navigating_Simplified_Payroll"/>
+          <include name="TC08_navigate_To_Crew_Profile"/>
+          <include name="initialConfig"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP97_CMP16261 -->
+    </classes>
+  </test> <!-- SP97_CMP16261(failed) -->
+  <test thread-count="5" name="SP97_CMP14754(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP97_CMP14754">
+        <methods>
+          <include name="TC02_navigate_To_National_Holidays"/>
+          <include name="TC04_adding_Holiday_Name"/>
+          <include name="initialConfig"/>
+          <include name="closeDriver"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC01_navigate_To_AdminPanel"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP97_CMP14754 -->
+    </classes>
+  </test> <!-- SP97_CMP14754(failed) -->
+  <test thread-count="5" name="SP98_CMP15930(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP98_CMP15930">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="TC_06_ValidatedropDownOfP45details"/>
+          <include name="initialConfig"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP98_CMP15930 -->
+    </classes>
+  </test> <!-- SP98_CMP15930(failed) -->
+</suite> <!-- Failed suite [IntegrationTesting] -->

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RC37_IntegrationTesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IntegrationTesting(failed)">
+    <classes>
+      <class name="com.compass.testcases.SP96_CMP15682">
+        <methods>
+          <include name="TC_02_navigateToVesselDetails"/>
+          <include name="tearDown"/>
+          <include name="TC_04_navigateToNomineeDetails"/>
+          <include name="TC_03_navigateToVisualPlannerpage"/>
+          <include name="TC01_loginToStage"/>
+          <include name="closeDriver"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="initialConfig"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15682 -->
+      <class name="com.compass.testcases.CMP15978_OwnerUsersAreNotAvailableForUserGroups">
+        <methods>
+          <include name="initialConfig"/>
+          <include name="SuiteTeardown"/>
+          <include name="MethodTeardown"/>
+          <include name="Setup"/>
+          <include name="Tc01_OwnerUsersForUserGroups"/>
+        </methods>
+      </class> <!-- com.compass.testcases.CMP15978_OwnerUsersAreNotAvailableForUserGroups -->
+      <class name="com.compass.testcases.SP96_CMP15463">
+        <methods>
+          <include name="initialConfig"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="TC01_navigate_To_Crew_Profile"/>
+          <include name="TC02_navigate_To_UK_Tax"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15463 -->
+      <class name="com.compass.testcases.SP96_CMP15326">
+        <methods>
+          <include name="tearDown"/>
+          <include name="closeDriver"/>
+          <include name="TC03_navigating_Planned_Events"/>
+          <include name="initialConfig"/>
+          <include name="TC01_navigate_To_Planned_Chnages"/>
+          <include name="TC04_navigating_Add_Edit_Planned_Events"/>
+          <include name="setUp"/>
+          <include name="TC02_Crew_is_Added_Onsigner_With_Promotion"/>
+          <include name="TC05_navigate_CompasOffice_HomePage"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15326 -->
+      <class name="com.compass.testcases.SP96_CMP14721">
+        <methods>
+          <include name="TC01_navigate_To_Crew_Profile"/>
+          <include name="tearDown"/>
+          <include name="closeDriver"/>
+          <include name="initialConfig"/>
+          <include name="setUp"/>
+          <include name="TC02_navigate_To_Simplified_Payroll"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP14721 -->
+      <class name="com.compass.testcases.SP96_CMP15590">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC05_navigate_To_Depromote_Window"/>
+          <include name="tearDown"/>
+          <include name="TC06_Submitting_Details_in_DePromotion_Window"/>
+          <include name="TC04_Verifying_Report_Without_Refreshing_Page"/>
+          <include name="closeDriver"/>
+          <include name="TC01_navigate_To_Planned_Changes"/>
+          <include name="initialConfig"/>
+          <include name="TC03_Submitting_Details_in_Promotion_Window"/>
+          <include name="TC07_Verifying_Report_link_Without_Refreshing_Page"/>
+          <include name="TC02_navigate_To_Promote_Window"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15590 -->
+      <class name="com.compass.testcases.SP96_CMP14278">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="Newchanges"/>
+          <include name="initialConfig"/>
+          <include name="TC01_loginToStage"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="TC_02_VerifyNavigationtoSickleaveReport"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP14278 -->
+      <class name="com.compass.testcases.SP96_CMP14778">
+        <methods>
+          <include name="TC02_navigate_Payroll_Vessel"/>
+          <include name="TC01_navigate_To_PayrollOverview"/>
+          <include name="TC05_Repening_Payroll"/>
+          <include name="closeDriver"/>
+          <include name="TC06_navigate_Reopened_Payroll_Page"/>
+          <include name="initialConfig"/>
+          <include name="setUp"/>
+          <include name="TC04_Closing_Payroll"/>
+          <include name="TC07_Reopened_Payroll_Page_Duplicate_List"/>
+          <include name="tearDown"/>
+          <include name="TC03_navigate_CrewID_Details"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP14778 -->
+      <class name="com.compass.testcases.SP96_CMP15607">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="TC_02_navigateToCrewprofile"/>
+          <include name="TC_03_uploadDocumentArchivix"/>
+          <include name="closeDriver"/>
+          <include name="initialConfig"/>
+          <include name="loginToOnboarding"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15607 -->
+      <class name="com.compass.testcases.SP96_CMP14192">
+        <methods>
+          <include name="TC_02_VerifyNavigationtoleavebalance"/>
+          <include name="tearDown"/>
+          <include name="closeDriver"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="TC_03_GetLeavebalance"/>
+          <include name="initialConfig"/>
+          <include name="TC_01_loginToStage"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP14192 -->
+      <class name="com.compass.testcases.SP96_CMP14440">
+        <methods>
+          <include name="initialConfig"/>
+          <include name="setUp"/>
+          <include name="TC02_navigate_Movements"/>
+          <include name="tearDown"/>
+          <include name="TC05_Verifying_Crew_Profile_Active_Status"/>
+          <include name="TC01_navigate_To_Crew_Profile"/>
+          <include name="TC03_Adding_Movement_Details"/>
+          <include name="TC04_changing_VesselType_in_Movements"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP14440 -->
+      <class name="com.compass.testcases.SP96_CMP15560">
+        <methods>
+          <include name="setUp"/>
+          <include name="TC01_navigate_To_Payroll_Overview"/>
+          <include name="tearDown"/>
+          <include name="closeDriver"/>
+          <include name="initialConfig"/>
+          <include name="TC02_navigate_To_Singapore_Tax_Regime_Crew"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15560 -->
+      <class name="com.compass.testcases.SP96_CMP15214">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="TC_02_VerifyNavigationtoBudgetDetail"/>
+          <include name="initialConfig"/>
+          <include name="TC01_loginToStage"/>
+          <include name="TC04_CapturetheiconsEditandDeleteatrightside"/>
+          <include name="tearDown"/>
+          <include name="TC03_NavigationtoOccurencePage"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15214 -->
+      <class name="com.compass.testcases.CMP872_InvestigationNominationRequests">
+        <methods>
+          <include name="MethodTeardown"/>
+          <include name="Tc01_InvestigationNominationRequests"/>
+          <include name="initialConfig"/>
+          <include name="Setup"/>
+          <include name="SuiteTeardown"/>
+        </methods>
+      </class> <!-- com.compass.testcases.CMP872_InvestigationNominationRequests -->
+      <class name="com.compass.testcases.SP96_CMP13786">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="tearDown"/>
+          <include name="initialConfig"/>
+          <include name="setUp"/>
+          <include name="TC01_navigating_To_Nomination_Request"/>
+          <include name="TC02_Select_Desired_Filters"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP13786 -->
+      <class name="com.compass.testcases.SP96_CMP15828">
+        <methods>
+          <include name="TC_02_VerifyNavigationtoSickleaveReport"/>
+          <include name="TC_04_GetTotalworkdays"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="TC_03_Getsickleavereport"/>
+          <include name="closeDriver"/>
+          <include name="initialConfig"/>
+          <include name="TC01_loginToStage"/>
+        </methods>
+      </class> <!-- com.compass.testcases.SP96_CMP15828 -->
+      <class name="com.compass.testcases.CMP13696_ContractClausesPageFilters">
+        <methods>
+          <include name="MethodTeardown"/>
+          <include name="initialConfig"/>
+          <include name="SuiteTeardown"/>
+          <include name="Setup"/>
+          <include name="Tc01_ContractClausesPageFilters"/>
+        </methods>
+      </class> <!-- com.compass.testcases.CMP13696_ContractClausesPageFilters -->
+    </classes>
+  </test> <!-- IntegrationTesting(failed) -->
+</suite> <!-- Failed suite [RC37_IntegrationTesting] -->

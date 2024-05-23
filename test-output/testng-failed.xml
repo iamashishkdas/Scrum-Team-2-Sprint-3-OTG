@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Scrum Team 2]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sprint 3(failed)">
+    <classes>
+      <class name="t2s3.T2S3_OAP2009">
+        <methods>
+          <include name="extentReportConfig"/>
+          <include name="setup"/>
+          <include name="stageApplicationSetUp"/>
+          <include name="tearDown"/>
+          <include name="configSetUp"/>
+          <include name="closeDriver"/>
+          <include name="TC05_ValidateArchiveButtonColor"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- t2s3.T2S3_OAP2009 -->
+    </classes>
+  </test> <!-- Sprint 3(failed) -->
+</suite> <!-- Failed suite [Scrum Team 2] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OLP Integration]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Module Personal Card(failed)">
+    <classes>
+      <class name="com.olp.p_card.OLP_R1_OLX_T85_86_1139GCCDOBEnable">
+        <methods>
+          <include name="TC06_ValidateDOBPasswordAlert"/>
+          <include name="setup"/>
+          <include name="logOut"/>
+          <include name="extentReportConfig"/>
+          <include name="tearDown"/>
+          <include name="configSetUp"/>
+          <include name="TC08_NavigateToTraineePersonalCard"/>
+          <include name="TC07_ValidateRandomDatePasswordAlert"/>
+          <include name="stageApplicationSetUp"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- com.olp.p_card.OLP_R1_OLX_T85_86_1139GCCDOBEnable -->
+    </classes>
+  </test> <!-- Module Personal Card(failed) -->
+</suite> <!-- Failed suite [OLP Integration] -->

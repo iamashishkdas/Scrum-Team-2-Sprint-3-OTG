@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OLP RC2 Regression Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="PC_Security Access To Others PC Edit Enable(failed)">
+    <classes>
+      <class name="com.olp.p_card.OLP_R2_OLX_T122PCardEditEnable">
+        <methods>
+          <include name="logOut"/>
+          <include name="closeDriver"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="stageApplicationSetUp"/>
+          <include name="extentReportConfig"/>
+          <include name="configSetUp"/>
+          <include name="TC01_navigateToPersonalCard" invocation-numbers="0"/>
+          <include name="TC02_ValidateGenderEditable"/>
+        </methods>
+      </class> <!-- com.olp.p_card.OLP_R2_OLX_T122PCardEditEnable -->
+    </classes>
+  </test> <!-- PC_Security Access To Others PC Edit Enable(failed) -->
+</suite> <!-- Failed suite [OLP RC2 Regression Suite] -->

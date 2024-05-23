@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Scrum Team 2">
+  <test thread-count="5" name="Sprint 3">
+    <classes>
+      <class name="t2s3.T2S3_OAP2031"/>
+      <class name="t2s3.T2S3_OAP2050"/>
+      <class name="t2s3.T2S3_OAP1797"/>
+      <class name="t2s3.T2S3_OAP2009"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

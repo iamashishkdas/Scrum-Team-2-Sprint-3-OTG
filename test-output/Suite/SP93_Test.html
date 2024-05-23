@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>TestNG:  SP93_Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>SP93_Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Feb 06 10:50:18 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>552 seconds (552744 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC06_VerifyPendingCrewChangeEventReportinTaskBoard()'><b>TC06_VerifyPendingCrewChangeEventReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>21</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC20_VerifyVaccinationDocumentReportinTaskBoard()'><b>TC20_VerifyVaccinationDocumentReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC26_VerifyMedicalCasesReportinTaskBoard()'><b>TC26_VerifyMedicalCasesReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>25</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC29_VerifyComplianceStatusReportinTaskBoard()'><b>TC29_VerifyComplianceStatusReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>59</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC12_VerifyMissingMedExamsReportinTaskBoard()'><b>TC12_VerifyMissingMedExamsReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>14</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC17_VerifySeamanBookdocumentReportinTaskBoard()'><b>TC17_VerifySeamanBookdocumentReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC18_VerifyMedicalDocumentReportinTaskBoard()'><b>TC18_VerifyMedicalDocumentReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC01_loginToLocal()'><b>TC01_loginToLocal</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>12</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14151.TC02_checkHomePageFilter()'><b>TC02_checkHomePageFilter</b><br>Test class: com.compass.testcases.SP93_CMP14151</td>
+<td></td>
+<td>0</td>
+<td>com.compass.testcases.SP93_CMP14151@120f102b</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC09_VerifyMissingPassportsReportinTaskBoard()'><b>TC09_VerifyMissingPassportsReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC13_VerifyMissingContractsReportinTaskBoard()'><b>TC13_VerifyMissingContractsReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>16</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC25_VerifyApproveWageRevisionReportinTaskBoard()'><b>TC25_VerifyApproveWageRevisionReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>17</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC23_VerifyCertificationReportinTaskBoard()'><b>TC23_VerifyCertificationReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC27_VerifyPromotionReportinTaskBoard()'><b>TC27_VerifyPromotionReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>41</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14151.TC06_verifyReportDataAsPerFilterApplied()'><b>TC06_verifyReportDataAsPerFilterApplied</b><br>Test class: com.compass.testcases.SP93_CMP14151</td>
+<td></td>
+<td>3</td>
+<td>com.compass.testcases.SP93_CMP14151@120f102b</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14151.TC05_verifyDefaultFilterValueonPlanPage()'><b>TC05_verifyDefaultFilterValueonPlanPage</b><br>Test class: com.compass.testcases.SP93_CMP14151</td>
+<td></td>
+<td>0</td>
+<td>com.compass.testcases.SP93_CMP14151@120f102b</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC22_VerifyCRAReportinTaskBoard()'><b>TC22_VerifyCRAReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC15_VerifyLicenceReportinTaskBoard()'><b>TC15_VerifyLicenceReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>14</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC21_VerifyDrugAlcoholDocumentReportinTaskBoard()'><b>TC21_VerifyDrugAlcoholDocumentReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>16</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC08_VerifyMissingLicensesReportinTaskBoard()'><b>TC08_VerifyMissingLicensesReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>16</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14151.TC04_checkPlanPageFilter()'><b>TC04_checkPlanPageFilter</b><br>Test class: com.compass.testcases.SP93_CMP14151</td>
+<td></td>
+<td>1</td>
+<td>com.compass.testcases.SP93_CMP14151@120f102b</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC04_VerifyCrewContractMonitoringReportinTaskBoard()'><b>TC04_VerifyCrewContractMonitoringReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC28_VerifyEAppraisalDashboardReportinTaskBoard()'><b>TC28_VerifyEAppraisalDashboardReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>24</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC19_VerifyVisaDocumentReportinTaskBoard()'><b>TC19_VerifyVisaDocumentReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>13</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC16_VerifyPassportReportinTaskBoard()'><b>TC16_VerifyPassportReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>15</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC11_VerifyMissingVaccinationsReportinTaskBoard()'><b>TC11_VerifyMissingVaccinationsReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>16</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC05_VerifyCrewAssignmentStatusReportinTaskBoard()'><b>TC05_VerifyCrewAssignmentStatusReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>17</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC03_VerifyReadinessVsAssignmentReportinTaskBoard()'><b>TC03_VerifyReadinessVsAssignmentReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>13</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC14_VerifyMissingAuthenticationsReportinTaskBoard()'><b>TC14_VerifyMissingAuthenticationsReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>16</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC10_VerifyMissingVisasReportinTaskBoard()'><b>TC10_VerifyMissingVisasReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>16</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC02_VerifyGapDayAnalysisReportinTaskBoard()'><b>TC02_VerifyGapDayAnalysisReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>17</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14151.TC01_loginToLocal()'><b>TC01_loginToLocal</b><br>Test class: com.compass.testcases.SP93_CMP14151</td>
+<td></td>
+<td>11</td>
+<td>com.compass.testcases.SP93_CMP14151@120f102b</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14146.TC07_VerifyMissingBookReportinTaskBoard()'><b>TC07_VerifyMissingBookReportinTaskBoard</b><br>Test class: com.compass.testcases.SP93_CMP14146</td>
+<td></td>
+<td>17</td>
+<td>com.compass.testcases.SP93_CMP14146@5ace1ed4</td></tr>
+<tr>
+<td title='com.compass.testcases.SP93_CMP14151.TC03_verifyDefaultFilterValueonHomePage()'><b>TC03_verifyDefaultFilterValueonHomePage</b><br>Test class: com.compass.testcases.SP93_CMP14151</td>
+<td></td>
+<td>0</td>
+<td>com.compass.testcases.SP93_CMP14151@120f102b</td></tr>
+</table><p>
+</body>
+</html>
